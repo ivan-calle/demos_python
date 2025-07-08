@@ -22,6 +22,6 @@ rate = node.create_rate(2)
 #  3.2. SHOW MESSAGES WHILE THE NODE IS OK
 while rclpy.ok():
      # Show message
-     node.get_logger().info('Hello Malena UNI from python3!')
+     node.get_logger().info('Hello UNI from python3!')
      # Sleep
      sleep(0.5)
